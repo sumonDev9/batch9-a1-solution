@@ -90,9 +90,9 @@ body{
 
 /* midnight party container style*/
 .midnight-party-container{
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0 auto;
     display: flex;
     background-image: url("../images/Vectorrr.png");
@@ -150,4 +150,186 @@ body{
     height: 464.65px;
     margin-top: 69px;
     margin-left: 108px;
+}
+
+/* detalies-container style here */
+.detalies-container{
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details-content{
+    text-align: center;
+}
+.details-content h2{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.details-content span{
+    color: red;
+}
+
+/* new-best-offer style */
+.new-best-offer{
+    max-width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+.leftSide-content{
+    width: 33%;
+    height: 463px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftSide-content .title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.leftSide-content .sub-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.leftSide-content .desription{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+}
+.middle-content{
+    width: 33.5%;
+    height: 463px;
+    border: 10px solid red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightSide-content{
+    width: 33.5%;
+    height: 463px;
+    /* border: 2px solid brown; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+.rightSide-content .year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.rightSide-content .desription{
+   width: 276px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: end;
+}
+
+.rightSide-content img{
+    width: 102.4px;
+    height: 132.79px;
+}
+
+/* holiday style  */
+.holiday{
+    width: 1320px;
+    height: 986.07px;
+    margin: 0 auto;
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+    position: relative;
+
+}
+.holiday_-sale-content{
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+.holiday_-sale-content .title{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    margin-bottom: 16px;
+}
+.holiday_-sale-content .subtitle{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 28px;
+}
+.holiday_-sale-content  span{
+    color: red;
+}
+.holiday_-sale-content .desription{
+color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+}
+.gift-content{
+    margin-top: 64px;
+}
+.solid-color {
+    width: 1320px;
+    height: 229px;
+    border-radius: 16px 0px 16px 16px;
+    background: rgb(255, 0, 0);
+    position: absolute;
+    top: 77%;
+    
+}
+
+.giftbox {
+    width: 674.82px;
+    height: 577.96px;
+    position: relative;
+    z-index: 1;
+    display: flex;
+}
+.giftbox img{
+    /* margin-top: 77px; */
+}
+.discount{
+width: 305.69px;
+height: 305.69px;
+/* border: 1px solid red; */
+margin-left: 250px;
+margin-top: 77px;
+
 }

@@ -50,5 +50,40 @@ body{
     height: 806px;
     margin: 0 auto;
     margin-top: 90px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+}
+.second-section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.second-section-content .title{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.second-section-content .subtitle{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.second-section-content .desription{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
 }
